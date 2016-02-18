@@ -25,12 +25,15 @@
     <Content Include="config.js" />
     <Content Include="gulpfile.js" />
     <Content Include="index.html" />
+    <Content Include="src\app.html" />
+    <Content Include="src\modules\config.js" />
+    <Content Include="src\modules\config.production.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
-    <Content Include="tsd.json" />
+    <Content Include="typings.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -39,7 +42,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\app.ts" />
     <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\modules\config.d.ts" />
+    <TypeScriptCompile Include="src\modules\config.production.ts" />
+    <TypeScriptCompile Include="src\modules\config.ts" />
     <TypeScriptCompile Include="typings\core-js\core-js.d.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />
   </ItemGroup>
