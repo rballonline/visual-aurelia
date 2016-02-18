@@ -36,5 +36,8 @@
         "main": "client/shim.min"
       }
     }
+  },
+  "devDependencies": {
+    "typings": "^0.6.8"
   }
 }

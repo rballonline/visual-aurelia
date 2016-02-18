@@ -1,0 +1,6 @@
+{
+  "name": "visual-aurelia",
+  "ambientDependencies": {
+    "core-js": "github:DefinitelyTyped/DefinitelyTyped/core-js/core-js.d.ts#85af69c91599a6c904618545f0613970e1ff3f64"
+  }
+}
