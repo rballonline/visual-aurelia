@@ -38,6 +38,7 @@
     }
   },
   "devDependencies": {
+    "jspm": "^0.16.29",
     "typings": "^0.6.8"
   }
 }

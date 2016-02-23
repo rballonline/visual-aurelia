@@ -1,10 +1,14 @@
-import { Router, RouterConfiguration } from 'aurelia-router';
+export class Welcome {
+    heading = 'Welcome to Aurelia!';
+    firstName = 'John';
+    lastName = 'Doe';
 
-export class App {
-  router: Router;
-  
-  configureRouter(config: RouterConfiguration, router: Router) {
-    config.map([]);
-    this.router = router;
-  }
+    get fullName() {
+        debugger;
+        return `${this.firstName} ${this.lastName}`;
+    }
+
+    submit() {
+        alert(`Welcome, ${this.fullName}!`);
+    }
 }
